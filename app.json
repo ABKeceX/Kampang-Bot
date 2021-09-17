@@ -1,7 +1,7 @@
 {
-  "name": "BOT KAMPANG",
-  "description": "[BOT KAMPANG] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
-  "logo": "https://telegra.ph/file/ecacf51f2ee342ba5d3e1.jpg",
+  "name": "Cok-UserBot",
+  "description": "[Cok-UserBot] A modular Telegram userbot running on Python 3.7+ with an sqlalchemy database, which can be coupled up with Mongo DB and a Redis backend",
+  "logo": "https://telegra.ph/file/1cdbbd432ccb206eb4c9b.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -87,7 +87,7 @@
       "required": false
     },
     "PM_AUTO_BAN": {
-      "description": "PM Auto-Ban Feature Switch. Also known as the 'bleep blop, this is a bot...' module.",
+      "description": "PM Auto-Ban Ketika Lu Di Chat NonKontak Cok.",
       "value": "False",
       "required": true
     },
@@ -104,7 +104,7 @@
       "required": false
     },
     "ANTI_SPAMBOT": {
-      "description": "Kicks spambots from groups after they join. [Requires admin powers in groups to kick.]",
+      "description": "Mendendang Bot spam Di Grup. [Harus admin di group cok.]",
       "value": "False"
     },
     "ANTI_SPAMBOT_SHOUT": {
@@ -124,7 +124,7 @@
       "required": false
     },
     "HEROKU_MEMEZ": {
-      "description": "This should be True if the userbot is running on a Heroku Dyno.",
+      "description": "Jangan Diubah2 Cok, Kecuali gak pake heroku.",
       "value": "True",
       "required": true
     },
@@ -150,19 +150,19 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "[MAIN BOT MULU ALAY NGENTOT 🐨]",
+      "value": "[Ngentod Apa Sih Lu👌]",
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Name to show in .alive message",
+      "description": "Nama Di command atau perintah .alive",
       "required": false
     },
     "S_PACK_NAME": {
-      "description": "change your sticker pack name",
+      "description": "Nama Stiker Pack Lo Cok",
       "required": false
     },
     "G_BAN_LOGGER_GROUP": {
-      "description": "Add all sudo bots in your group and type id of that group.",
+      "description": "Masukkan bot ke GC lu Cok, terus masukkan Id nya.",
       "value": "isi id group lu tolol",
       "required": false
     },
@@ -192,12 +192,12 @@
       "required": false
     },
     "WEATHER_DEFCITY": {
-      "description": "Set the default city for the userbot's weather module.",
-      "value": "lu tinggal dimana kenalan yuk",
+      "description": "Nama Askot Lu Cok.",
+      "value": "lu tinggal dimana",
       "required": false
     },
     "LOGSPAMMER": {
-      "description": "Set this to True in case you want the error logs to be stored in the userbot log group, instead of spitting out the file in the current chat, requires a valid BOTLOG_CHATID to be set.",
+      "description": "Set ini ke True Jika kamu ingin Botlog Grup, Masukkan Data ID BOTLOG_CHATID yang valid.",
       "value": "True",
       "required": true
     },
@@ -210,7 +210,7 @@
       "required": false
     },
     "BOT_TOKEN": {
-      "description": "Set this to enable inline bot helper. get the token from @BotFather",
+      "description": "Set ini ke Inline Mod untuk menu .helpme. Caranya disini Cok @BotFather",
       "required": false
     },
     "BOT_USERNAME": {
